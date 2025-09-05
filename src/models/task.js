@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     ativa: DataTypes.BOOLEAN
   }, {
     sequelize,
-    modelName: 'Task',
+    modelName: 'task',
     tableName: 'tasks'
   });
   return Task;
